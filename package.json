@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cypress": "^9.5.0"
+  },
+  "name": "proyect_markiii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runchrome": "cypress run --browser chrome --spec cypress/integration/Proyect_MKII/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
